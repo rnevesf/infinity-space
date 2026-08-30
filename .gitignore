@@ -1,0 +1,28 @@
+# Godot 4 .gitignore
+
+# Godot-specific ignores
+.godot/
+*.translation
+
+# Imported resources
+.import/
+
+# Export presets (may contain sensitive info)
+export_presets.cfg
+
+# Builds
+build/
+*.exe
+*.pck
+
+# OS-specific
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
